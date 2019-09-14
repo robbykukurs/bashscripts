@@ -1,0 +1,8 @@
+#! /bin/bash
+name[1]=Indra
+name[2]=Robert
+name[3]=Fred
+for index in 1 2 3
+do
+printf "%s\n" ${name[index]}
+done

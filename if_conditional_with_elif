@@ -1,0 +1,15 @@
+#! /bin/bash
+echo "Now please enter what hour it is now!"
+read HOUR
+if [ $HOUR -ge "6" ] && [ $HOUR -le "12" ]
+then
+echo "Wow, the day is still young!"
+elif [ $HOUR -ge 13 ] && [ $HOUR -le 18 ]
+then
+echo "It's the best time of the day!"
+elif [ $HOUR -ge 19 ] && [ $HOUR -le 23 ]
+then
+echo "Well, it's about time to turn in for the night!"
+else
+echo "It appears that you're awake in the middle of night!"
+fi

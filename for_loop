@@ -1,0 +1,5 @@
+#! /bin/bash
+for Name in $(seq 10)
+do
+echo $Name
+done
